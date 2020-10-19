@@ -1,7 +1,6 @@
 pool:
   name: myPrivateAgents
   demands:
-  - agent.os -equals Darwin
-  - anotherCapability -equals somethingElse
+  - agent.name -equals AIG003
 steps:
 - script: echo hello world
