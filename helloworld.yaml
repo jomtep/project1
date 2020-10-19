@@ -1,4 +1,6 @@
 pool:
   name: myPrivateAgents
+  demands:
+  - Agent.Name -equals AIG003
 steps:
 - script: echo hello world
