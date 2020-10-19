@@ -1,5 +1,5 @@
 pool:
-  name: myPrivateAgents
+  name: default
   demands:
   - Agent.Name -equals AIG003
 steps:
