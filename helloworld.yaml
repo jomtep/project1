@@ -1,5 +1,4 @@
 pool:
   name: myPrivateAgents
-  agentName: AIG003
 steps:
 - script: echo hello world
