@@ -1,0 +1,7 @@
+pool:
+  name: myPrivateAgents
+  demands:
+  - agent.os -equals Darwin
+  - anotherCapability -equals somethingElse
+steps:
+- script: echo hello world
